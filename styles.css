@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('imagenes/fondo.jpg'); /* Imagen de fondo */
+  background-size: cover;
+  background-position: center;
+  color: #ecf0f1;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 3rem;
+  color: #ffa500; /* Amarillo fuego */
+  text-shadow: 0 0 10px #ff4500, 0 0 20px #ff4500;
+  margin-bottom: 30px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+form label {
+  font-size: 1.5rem;
+}
+
+form input {
+  padding: 10px;
+  font-size: 1.2rem;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: none;
+}
+
+form button {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  background-color: #27ae60;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #2ecc71;
+}
+
+#resultado {
+  margin-top: 20px;
+  background-color: rgba(0, 0, 0, 0.8); /* Fondo semi-transparente */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#resultado h2 {
+  font-size: 2rem;
+}
+
+#resultado ul {
+  list-style: none;
+  padding: 0;
+}
+
+#resultado li {
+  font-size: 1.5rem;
+}
+
+
+
